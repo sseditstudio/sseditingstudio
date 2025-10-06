@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS EDITING STUDIO - Premium Video Editing Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>SS EDITING STUDIO</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#software" class="nav-link">Software Expertise</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#demo-reel" class="nav-link">Demo Reel</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Premium Video Editing Services at Competitive Rates</h1>
+                <p class="hero-subtitle">Your Vision, Our Expertise</p>
+                <p class="hero-description">Transform your content with professional video editing that delivers exceptional quality without compromising your budget</p>
+                <button class="btn-primary" onclick="scrollToSection('portfolio')">View Our Work</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-overlay"></div>
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">About SS Editing Studio</h2>
+                <div class="about-content">
+                    <p class="about-text">
+                        At SS Editing Studio, we combine cutting-edge technology with creative excellence to deliver premium video editing services. 
+                        Our team specializes in transforming raw footage into compelling visual stories that captivate audiences and exceed expectations.
+                    </p>
+                    <p class="about-text">
+                        With years of experience in the industry, we pride ourselves on delivering professional-grade results while maintaining 
+                        competitive pricing, making high-quality video editing accessible to creators and businesses of all sizes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Software Expertise Section -->
+    <section id="software" class="software">
+        <div class="section-overlay"></div>
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Mastering Industry-Leading Tools</h2>
+                <div class="software-grid">
+                    <div class="software-card">
+                        <div class="software-icon">🎬</div>
+                        <h3>Adobe Premiere Pro</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="95"></div>
+                        </div>
+                        <p class="software-description">Professional video editing and post-production</p>
+                        <span class="experience">5+ Years Experience</span>
+                    </div>
+                    <div class="software-card">
+                        <div class="software-icon">✨</div>
+                        <h3>Adobe After Effects</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="90"></div>
+                        </div>
+                        <p class="software-description">Motion graphics, VFX, and compositing</p>
+                        <span class="experience">4+ Years Experience</span>
+                    </div>
+                    <div class="software-card">
+                        <div class="software-icon">🎨</div>
+                        <h3>Adobe Photoshop</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="85"></div>
+                        </div>
+                        <p class="software-description">Image editing, design, and retouching</p>
+                        <span class="experience">6+ Years Experience</span>
+                    </div>
+                    <div class="software-card">
+                        <div class="software-icon">🛠️</div>
+                        <h3>KDenlive</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="88"></div>
+                        </div>
+                        <p class="software-description">Open-source professional video editing</p>
+                        <span class="experience">3+ Years Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-overlay"></div>
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🎥</div>
+                        <h3>Video Editing & Post-Production</h3>
+                        <p>Complete video editing solutions from raw footage to final delivery</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🎨</div>
+                        <h3>Color Grading & Correction</h3>
+                        <p>Professional color enhancement to achieve cinematic visual appeal</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">✨</div>
+                        <h3>Motion Graphics & Effects</h3>
+                        <p>Dynamic animations and visual effects to enhance your content</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔊</div>
+                        <h3>Audio Enhancement</h3>
+                        <p>Professional audio editing, mixing, and sound design services</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💡</div>
+                        <h3>Project Consultation</h3>
+                        <p>Expert guidance and creative direction for your video projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-overlay"></div>
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Our Portfolio</h2>
+                <p class="portfolio-description">
+                    We have successfully collaborated with numerous content creators and are currently engaged in an exciting movie production project, 
+                    delivering exceptional quality and creative excellence across diverse video formats.
+                </p>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-thumbnail">
+                            <div class="portfolio-overlay">
+                                <h4>Content Creation</h4>
+                                <p>YouTube & Social Media</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-thumbnail">
+                            <div class="portfolio-overlay">
+                                <h4>Commercial Projects</h4>
+                                <p>Brand & Marketing Videos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-thumbnail">
+                            <div class="portfolio-overlay">
+                                <h4>Cinematic Productions</h4>
+                                <p>Short Films & Documentaries</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-thumbnail">
+                            <div class="portfolio-overlay">
+                                <h4>Movie Project</h4>
+                                <p>Feature Film Production</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Reel Section -->
+    <section id="demo-reel" class="demo-reel">
+        <div class="section-overlay"></div>
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Demo Reel</h2>
+                <p class="demo-description">Experience our creative excellence through our comprehensive demo reel showcasing diverse editing styles and techniques</p>
+                <div class="demo-video-container">
+                    <div class="video-placeholder">
+                        <div class="play-button">▶</div>
+                        <p>Demo Reel Coming Soon</p>
+                        <span>Contact us to view our latest work samples</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="section-overlay"></div>
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Client Reviews</h2>
+                <div class="reviews-carousel">
+                    <div class="review-card active">
+                        <div class="review-content">
+                            <p class="review-text">"Outstanding video editing quality and professional service delivery"</p>
+                            <div class="review-author">
+                                <span class="author-designation">Marketing Director, Digital Agency</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-content">
+                            <p class="review-text">"Exceptional attention to detail and creative vision exceeded our expectations"</p>
+                            <div class="review-author">
+                                <span class="author-designation">Content Creator & Influencer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-content">
+                            <p class="review-text">"Timely delivery and superior technical expertise made our project a success"</p>
+                            <div class="review-author">
+                                <span class="author-designation">Production Manager, Media Company</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-content">
+                            <p class="review-text">"Innovative editing techniques and professional communication throughout the process"</p>
+                            <div class="review-author">
+                                <span class="author-designation">Creative Director, Advertising Firm</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-overlay"></div>
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p>Ready to bring your vision to life? Contact us for a professional consultation.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-label">Email:</span>
+                                <a href="mailto:editswithssedits@gmail.com" class="contact-value">editswithssedits@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">Response Time:</span>
+                                <span class="contact-value">Within 24 hours</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <select id="projectType" name="projectType" required>
+                                    <option value="">Select Project Type</option>
+                                    <option value="content-creation">Content Creation</option>
+                                    <option value="commercial">Commercial Video</option>
+                                    <option value="cinematic">Cinematic Production</option>
+                                    <option value="social-media">Social Media Content</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select id="budget" name="budget">
+                                    <option value="">Budget Range (Optional)</option>
+                                    <option value="under-500">Under $500</option>
+                                    <option value="500-1000">$500 - $1000</option>
+                                    <option value="1000-2500">$1000 - $2500</option>
+                                    <option value="2500-plus">$2500+</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Tell us about your project" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>SS EDITING STUDIO</h3>
+                    <p>Premium Video Editing Services</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:editswithssedits@gmail.com">editswithssedits@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SS Editing Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
